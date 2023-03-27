@@ -13,6 +13,8 @@ const mostrarReloj = () =>{
     let textoFecha = `${diaSemana},${dia} ${mes}`
     document.getElementById('fecha').innerHTML = textoFecha
 
+    document.getElementById('contenedor').classList.toggle('animar')
+
 }
 
 const formatoHora = (hora) => {
